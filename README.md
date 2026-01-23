@@ -2,9 +2,9 @@
 
 Aiming for industrial intelligence, driven by advanced information technologies like Digital Twin and Large Language Model technologies, to build an efficient, secure, and intelligent digital industrial ecosystem.
 
-[cogTwins-workroom.github.io](https://cogTwins-workroom.github.io)
+[cogtwins-workroom.github.io](https://cogtwins-workroom.github.io)
 
-Know more about this site: [cogTwins-workroom.github.io/about](https://cogTwins-workroom.github.io/about/)
+Know more about this site: [cogtwins-workroom.github.io/about](https://cogtwins-workroom.github.io/about/)
 
 ### Contact Us
 
