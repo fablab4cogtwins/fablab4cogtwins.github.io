@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<section class="hero">
+	<div class="hero-content position-relative text-white">
+		<div class="container position-relative z-2">
+			<div class="row min-vh-75 align-items-center py-3">
+				<div class="col-lg-8 col-xl-7">
+					<h1 class="display-3 fw-bold mb-3 animate-fade-in">
+						Welcome to CogTwins Lab
+					</h1>
+					<p class="lead fw-semibold fs-5 mb-4 opacity-90 animate-fade-in delay-1">
+						Aiming for industrial intelligence, driven by advanced information
+						technologies like Digital Twin and Large Language Model
+						technologies, to build an efficient, secure, and intelligent digital
+						industrial ecosystem.
+					</p>
+					<div
+						class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start animate-fade-in delay-3"
+					>
+						<a
+							href="#"
+							class="btn btn-light btn-lg px-4 py-3 rounded-3 fw-semibold"
+							data-bs-toggle="modal"
+							data-bs-target="#joinTeamModal"
+						>
+							<i class="bi bi-person-plus me-2"></i>Join Our Team
+						</a>
+						<a
+							href="#news"
+							class="btn btn-outline-light btn-lg px-4 py-3 rounded-3 fw-semibold"
+						>
+							<i class="bi bi-journal-text me-2"></i>Latest News
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="py-5 bg-light">
+	<div class="container">
+		<div class="text-center mb-5">
+			<h2 class="fw-bold">Our Team</h2>
+		</div>
+		{%- include team.html -%}
+	</div>
+</section>
+
+{%- include news.html -%}
+
+<!-- Modal -->
+<div
+	class="modal fade"
+	id="joinTeamModal"
+	tabindex="-1"
+	aria-labelledby="joinTeamModalLabel"
+	aria-hidden="true"
+>
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="joinTeamModalLabel">Join Our Team</h5>
+				<button
+					type="button"
+					class="btn-close"
+					data-bs-dismiss="modal"
+					aria-label="Close"
+				></button>
+			</div>
+			<div class="modal-body text-justify py-4">
+				<p>
+					Interested in working with us? Send us your resume and a brief
+					introduction!
+				</p>
+				<p>有兴趣加入我们吗？请将您的简历和简短介绍发送给我们！</p>
+				<div class="d-flex mt-3">
+					<span class="fw-bold me-2">Email:</span>
+					<a
+						href="mailto:jiehan.zhou@sdust.edu.cn"
+						class="text-primary hover-dark"
+						>jiehan.zhou@sdust.edu.cn</a
+					>
+				</div>
+			</div>
+			<div class="modal-footer justify-content-center">
+				<button type="button" class="btn btn-primary" data-bs-dismiss="modal">
+					Got it!
+				</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+

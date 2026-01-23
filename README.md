@@ -1,16 +1,30 @@
-# CogTwins-Innovation-and-Entrepreneurship-Workroom.github.io
+# Official web of **Cognitive Industrial Digital Twins Lab** team.
+
 Aiming for industrial intelligence, driven by advanced information technologies like Digital Twin and Large Language Model technologies, to build an efficient, secure, and intelligent digital industrial ecosystem.
- CogTwins-Innovation-and-Entrepreneurship-Workroom.github.io
 
-Know more about this site:  CogTwins-Innovation-and-Entrepreneurship-Workroom.github.io/about
+[cogtwins.github.io](https://cogtwins.github.io)
 
-Contact Us
-579 Qianwangang Road, Huangdao District, Qingdao, Shandong Province, P.R. China Post Code: 266590
+Know more about this site: [cogtwins.github.io/about](https://cogtwins.github.io/about/)
 
-Shandong University of Science and Technology
+### Contact Us
 
-Laboratory: J13 Building, Room 416
+579 Qianwangang Road, Huangdao District, Qingdao, Shandong Province, P.R. China
+Post Code: 266590
 
-International Office: J13 Building, Room 114
+**Shandong University of Science and Technology**
+
+**Laboratory:** J13 Building, Room 416
+
+**International Office:** J13 Building, Room 114
 
 jiehan.zhou@sdust.edu.cn
+
+---
+
+```
+(c) Copyright
+Created by: Ayub Ali Emon
+For: Cognitive Industrial Digital Twins Lab
+Email: emon@sdust.edu.cn
+GitHub: github.com/alfa-echo-niner-ait
+```
