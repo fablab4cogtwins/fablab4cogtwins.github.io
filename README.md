@@ -4,7 +4,7 @@ Aiming for industrial intelligence, driven by advanced information technologies 
 
 [cogTwins-workroom.github.io](https://cogTwins-workroom.github.io)
 
-Know more about this site: [cogTwins-workroom.github.io/about](https://CogTwins Innovation and Entrepreneurship Workroom.github.io/about/)
+Know more about this site: [cogTwins-workroom.github.io/about](https://cogTwins-workroom.github.io/about/)
 
 ### Contact Us
 
