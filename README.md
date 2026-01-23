@@ -1,10 +1,10 @@
-# Official web of **Cognitive Industrial Digital Twins Lab** team.
+# Official web of **CogTwins Innovation and Entrepreneurship ** Workroom.
 
 Aiming for industrial intelligence, driven by advanced information technologies like Digital Twin and Large Language Model technologies, to build an efficient, secure, and intelligent digital industrial ecosystem.
 
-[cogtwins.github.io](https://cogtwins.github.io)
+[CogTwins Innovation and Entrepreneurship Workroom.github.io](https://CogTwins Innovation and Entrepreneurship Workroom.github.io)
 
-Know more about this site: [cogtwins.github.io/about](https://cogtwins.github.io/about/)
+Know more about this site: [CogTwins Innovation and Entrepreneurship Workroom.github.io/about](https://CogTwins Innovation and Entrepreneurship Workroom.github.io/about/)
 
 ### Contact Us
 
