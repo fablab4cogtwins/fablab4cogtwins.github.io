@@ -1,10 +1,10 @@
-# Official web of **Cognitive Industrial Digital Twins Lab** team.
+# Official web of **Cognitive Industrial Digital Twins Workroom** team.
 
 Aiming for industrial intelligence, driven by advanced information technologies like Digital Twin and Large Language Model technologies, to build an efficient, secure, and intelligent digital industrial ecosystem.
 
-[cogtwins.github.io](https://cogtwins.github.io)
+[cogtwins.github.io](https://cogtwins-workroom.github.io)
 
-Know more about this site: [cogtwins.github.io/about](https://cogtwins.github.io/about/)
+Know more about this site: [cogtwins.github.io/about](https://cogtwins-workroom.github.io/about/)
 
 ### Contact Us
 
@@ -23,8 +23,8 @@ jiehan.zhou@sdust.edu.cn
 
 ```
 (c) Copyright
-Created by: Ayub Ali Emon
-For: Cognitive Industrial Digital Twins Lab
-Email: emon@sdust.edu.cn
+Created by: Cao Rui
+For: Cognitive Industrial Digital Twins Workroom
+Email: 202411070601@sdust.edu.cn
 GitHub: github.com/alfa-echo-niner-ait
 ```
