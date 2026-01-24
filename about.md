@@ -27,7 +27,7 @@ Created and maintained by lab member <b>Cao Rui</b>
 <br>
 <b>Email: </b> 202411070601@sdust.edu.cn
 <br>
-<b>GitHub: </b><a target="_blank" href="https://github.com/alfa-echo-niner-ait">
+<b>GitHub: </b><a target="_blank" href="https://github.com/cogtwins-workroom">
 github.com/cogtwins-workroom
 </a>
 </p>
