@@ -26,5 +26,5 @@ jiehan.zhou@sdust.edu.cn
 Created by: Cao Rui
 For: Cognitive Industrial Digital Twins Workroom
 Email: 202411070601@sdust.edu.cn
-GitHub: github.com/alfa-echo-niner-ait
+GitHub: github.com/cogtwins-workroom
 ```
