@@ -1,0 +1,64 @@
+- name: "Emon"
+  profile: 
+  photo: "/assets/imgs/emon.jpg"
+  title: "Graduate"
+
+- name: "Phonesamay"
+  profile: 
+  photo: "/assets/imgs/phonesamay.jpg"
+  title: "Graduate"
+  
+- name: "Sun Siyuan"
+  profile: 
+  photo: "/assets/imgs/siyuan.jpg"
+  title: "Graduate"
+
+- name: "Yu Jinling"
+  profile: 
+  photo: "/assets/imgs/jinling.jpg"
+  title: "Graduate"
+
+- name: "Wang Zixiao"
+  profile: 
+  photo: "/assets/imgs/wang_zixiao.jpg"
+  title: "Graduate"
+
+- name: "Zhang Yuhang"
+  profile: 
+  photo: "/assets/imgs/zhang_yuhang.jpg"
+  title: "Graduate"
+
+- name: "Yin Dongxu"
+  profile: 
+  photo: "/assets/imgs/yin_dongxu.jpg"
+  title: "Graduate"
+
+- name: "Shakil"
+  profile: 
+  photo: "/assets/imgs/shakil.jpg"
+  title: "Graduate"
+
+- name: "Kawtar"
+  profile: 
+  photo: "/assets/imgs/kawtar.jpg"
+  title: "Graduate"
+
+- name: "Rachida Tahir"
+  profile: 
+  photo: "/assets/imgs/rachida_tahir.jpg"
+  title: "Graduate"
+
+- name: "Walid"
+  profile: 
+  photo: "/assets/imgs/walid.jpg"
+  title: "Graduate"
+
+- name: "Souhail"
+  profile: 
+  photo: "/assets/imgs/souhail.jpg"
+  title: "Graduate"
+
+- name: "Elhassan Sahih"
+  profile: 
+  photo: "/assets/imgs/elhassan_sahih.jpg"
+  title: "Graduate"
