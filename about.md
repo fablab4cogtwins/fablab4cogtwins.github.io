@@ -10,22 +10,22 @@ permalink: /about/
     About this Site
 </div>
 
-Official website of Cognitive Industrial Digital Twins Lab team of Shandong University of Science and Technology.
+Official website of Cognitive Industrial Digital Twins Workroom team of Shandong University of Science and Technology.
 
 <br>
 
 Licence: <b>MIT</b>
 
 <p>
-GitHub repository: <a target="_blank" href="https://github.com/cogtwins/cogtwins.github.io" class="mb-3">github.com/cogtwins/cogtwins.github.io</a>
+GitHub repository: <a target="_blank" href="https://github.com/cogtwins/cogtwins-workroom.github.io" class="mb-3">github.com/cogtwins/cogtwins-workroom.github.io</a>
 </p>
 
 <br>
 
 <p>
-Created and maintained by lab member <b>Ayub Ali Emon</b>
+Created and maintained by lab member <b>Cao Rui</b>
 <br>
-<b>Email: </b> emon@sdust.edu.cn
+<b>Email: </b> 202411070601@sdust.edu.cn
 <br>
 <b>GitHub: </b><a target="_blank" href="https://github.com/alfa-echo-niner-ait">
 github.com/alfa-echo-niner-ait
