@@ -17,7 +17,7 @@ Official website of Cognitive Industrial Digital Twins Workroom team of Shandong
 Licence: <b>MIT</b>
 
 <p>
-GitHub repository: <a target="_blank" href="https://github.com/cogtwins/cogtwins-workroom.github.io" class="mb-3">github.com/cogtwins/cogtwins-workroom.github.io</a>
+GitHub repository: <a target="_blank" href="https://github.com/cogtwins-workroom/cogtwins-workroom.github.io" class="mb-3">github.com/cogtwins-workroom/cogtwins-workroom.github.io</a>
 </p>
 
 <br>
