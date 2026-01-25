@@ -57,3 +57,4 @@ The two sides engaged in exchanges on topics such as technology development, per
 This visit not only provided valuable learning and exchange opportunities but also represented an important step for Cogtwins Fablab in advancing the deep integration of industry, academia, and research while connecting with real industry needs. We look forward to engaging in substantive collaboration with Haier Group on specific projects, working together to address practical industrial challenges and cultivate innovative, practical talent.
 
 此次走访不仅是一次宝贵的学习与交流机会，更是Cogtwins Fablab推动产学研深度融合、对接行业真实需求的重要一步。我们期待与海尔集团在具体项目上开展实质性合作，共同为解决产业实际问题、培养创新实践人才贡献力量。
+
