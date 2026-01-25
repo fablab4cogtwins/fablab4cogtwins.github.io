@@ -1,10 +1,10 @@
-# Official web of **Cognitive Industrial Digital Twins Workroom** team.
+# Official web of **Cognitive Industrial Digital Twins Fablab** team.
 
 Aiming for industrial intelligence, driven by advanced information technologies like Digital Twin and Large Language Model technologies, to build an efficient, secure, and intelligent digital industrial ecosystem.
 
-[cogtwins-workroom.github.io](https://cogtwins-workroom.github.io)
+[fablab4cogtwins.github.io](https://fablab4cogtwins.github.io)
 
-Know more about this site: [cogtwins-workroom.github.io/about](https://cogtwins-workroom.github.io/about/)
+Know more about this site: [fablab4cogtwins.github.io/about](https://fablab4cogtwins.github.io/about/)
 
 ### Contact Us
 
@@ -25,6 +25,6 @@ jiehan.zhou@sdust.edu.cn
 (c) Copyright
 Created by: Cao Rui
 For: Cognitive Industrial Digital Twins Workroom
-Email: 202411070601@sdust.edu.cn
-GitHub: github.com/cogtwins-workroom
+Email: Rui.cao@sdust.edu.cn
+GitHub: github.com/fablab4cogtwins
 ```
