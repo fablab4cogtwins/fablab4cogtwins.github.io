@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cogtwins Fablab师生代表赴海尔集团开展企业调研与技术交流"
-author: "Jie hanzhou"
+author: "Jiehan Zhou"
 date: 2026-01-06
 tags: Visit Collaboration Industry
 cover: "/assets/postimg/2026_1_6_cogtwins_fablab_visit_haier(1).jpg"
