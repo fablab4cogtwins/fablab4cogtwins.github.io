@@ -2,9 +2,9 @@
 
 Aiming for industrial intelligence, driven by advanced information technologies like Digital Twin and Large Language Model technologies, to build an efficient, secure, and intelligent digital industrial ecosystem.
 
-[fablab4cogtwins.github.io](https://fablab4cogtwins.github.io)
+[cogtwinsfablab.github.io/fablab4cogtwins.github.io/](https://cogtwinsfablab.github.io/fablab4cogtwins.github.io/)
 
-Know more about this site: [fablab4cogtwins.github.io/about](https://fablab4cogtwins.github.io/about/)
+Know more about this site: [cogtwinsfablab.github.io/fablab4cogtwins.github.io//about](https://cogtwinsfablab.github.io/fablab4cogtwins.github.io//about/)
 
 ### Contact Us
 
