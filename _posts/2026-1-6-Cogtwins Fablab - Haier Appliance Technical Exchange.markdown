@@ -48,7 +48,7 @@ Both sides conducted lively and in-depth discussions on the technical feasibilit
 
 Following the meeting, guided by Director Guo of the Haier Laboratory, the delegation visited several advanced R&D and testing platforms, including the Offline Voice Laboratory, Noise Testing Laboratory, and Airflow Efficiency Testing Laboratory. Subsequently, they visited the Haier Small Appliance Market Department showroom, gaining an in-depth understanding of Haier's latest product lines and forward-looking market strategies.
 
-会后，在海尔实验室郭主任的引导下，师生们先后参观了离线语音实验室、噪音测试实验室、风量能效测试实验室等多个先进的研发测试平台。随后，大家访问了海尔小家电市场部展厅，深入了解了海尔最新产品线与前沿市场布局。
+会后，在海尔实验室雷主任的引导下，师生们先后参观了离线语音实验室、噪音测试实验室、风量能效测试实验室等多个先进的研发测试平台。随后，大家访问了海尔小家电市场部展厅，深入了解了海尔最新产品线与前沿市场布局。
 
 The two sides engaged in exchanges on topics such as technology development, personnel training, and achievement transformation, reaching preliminary consensus on promoting further deep integration of industry, academia, and research to jointly explore innovation opportunities in the smart appliance field.
 
