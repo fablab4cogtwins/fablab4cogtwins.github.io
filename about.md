@@ -10,14 +10,14 @@ permalink: /about/
     About this Site
 </div>
 
-Official website of Cognitive Industrial Digital Twins Workroom team of Shandong University of Science and Technology.
+Official website of Cognitive Industrial Digital Twins Fablab team of Shandong University of Science and Technology.
 
 <br>
 
 Licence: <b>MIT</b>
 
 <p>
-GitHub repository: <a target="_blank" href="https://github.com/cogtwins-workroom/cogtwins-workroom.github.io" class="mb-3">github.com/cogtwins-workroom/cogtwins-workroom.github.io</a>
+GitHub repository: <a target="_blank" href="https://github.com/fablab4cogtwins/fablab4cogtwins.github.io" class="mb-3">github.com/fablab4cogtwins/fablab4cogtwins.github.io</a>
 </p>
 
 <br>
@@ -25,10 +25,10 @@ GitHub repository: <a target="_blank" href="https://github.com/cogtwins-workroom
 <p>
 Created and maintained by lab member <b>Cao Rui</b>
 <br>
-<b>Email: </b> 202411070601@sdust.edu.cn
+<b>Email: </b> Rui.Cao1@sdust.edu.cn
 <br>
-<b>GitHub: </b><a target="_blank" href="https://github.com/cogtwins-workroom">
-github.com/cogtwins-workroom
+<b>GitHub: </b><a target="_blank" href="https://github.com/fablab4cogtwins">
+github.com/fablab4cogtwins
 </a>
 </p>
 
