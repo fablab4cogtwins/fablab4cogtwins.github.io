@@ -1,24 +1,24 @@
 - name: "Zhang Luyu"
-  profile: ""
+  profile: null
   photo: "/assets/imgs/luyv.jpg"
   title: ""
 
 - name: "Zhen Nailu"
-  profile: ""
-  photo: "/assets/imgs/Zhen Nailu.jpg"
+  profile: null
+  photo: "/assets/imgs/zhen_nailu.jpg"
   title: ""
 
 - name: "Cao Rui"
-  profile: ""
-  photo: "/assets/imgs/Cao Rui.jpg"
+  profile: null
+  photo: "/assets/imgs/cao_rui.jpg"
   title: ""
 
 - name: "Xiong Siyi"
-  profile: ""
-  photo: "/assets/imgs/Xiong Siyi.jpg"
+  profile: null
+  photo: "/assets/imgs/xiong_siyi.jpg"
   title: ""
 
 - name: "Song Jiayi"
-  profile: ""
-  photo: "/assets/imgs/Xiong Song Jiayi.jpg"
+  profile: null
+  photo: "/assets/imgs/song_jiayi.jpg"
   title: ""
