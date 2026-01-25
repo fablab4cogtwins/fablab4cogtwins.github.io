@@ -1,38 +1,49 @@
 ---
 layout: post
-title: "Cogtwins创新创业工作室常年纳新，期待你的加入！"
-author: "Jiehan Zhou"
-date: 2025-12-17
-tags: Lab Recruiting Newmembers
-cover: "/assets/postimg/2025-12-17-cogtwins-lab-is-recruiting-new-members(1).jpg"
+title: "Cogtwins工作室师生代表赴海尔集团开展技术交流与参观活动"
+author: "Cogtwins Fablab"
+date: 2026-01-06
+tags: Visit Collaboration Industry
+cover: "/assets/postimg/2026_1_6_cogtwins_fablab_visit_haier(1).jpg"
 published: true
 ---
-<div class="text-center">
-    <img class="img-fluid img-thumbnail" style="max-height: 480px;"
-        src="{{ '/assets/postimg/2025-12-17-cogtwins-lab-is-recruiting-new-members(1).jpg' | relative_url }}" />
-</div>
 
 <div class="text-center">
     <img class="img-fluid img-thumbnail" style="max-height: 480px;"
-        src="{{ '/assets/postimg/2025-12-17-cogtwins-lab-is-recruiting-new-members(2).png' | relative_url }}" />
+        src="{{ '/assets/postimg/2026_1_6_cogtwins_fablab_visit_haier(1).jpg' | relative_url }}" />
 </div>
 
- Cogtwins创新创业工作室常年纳新，期待你的加入！
+近日，山东科技大学Cogtwins实验室（创新创业工作室）师生代表在包老师带领下，一行12人赴海尔集团小家电事业部进行技术交流与参观访问。海尔集团研发经理雷远通主持交流会，总工程师刘戈博士、结构总监李传敬、电控经理尚一诺及各产品线项目经理共同出席了会议。
 
-山东科技大学Cogtwins创新创业工作室现面向全校学生开放纳新！如果你对工业软件、人工智能 、FPGA、异构计算、AI加速卡、具身机器人、无人机、自主系统等前沿科技充满兴趣，渴望在创新实践中成长，这里将是你的理想平台！
+## 深入探讨技术痛点，聚焦产品优化
 
-工作室由cogtwins实验室主任周杰韩教授领衔指导，拥有丰富的国际科研与产业经验，致力于培养具备创新能力和团队协作精神的优秀学子。我们常年招收大二及以上年级的工科背景学生，无论你是否已有项目经验，只要积极主动、乐于合作，都欢迎加入！
+交流会上，海尔研发团队首先展示了当前产品实物样机，并详细阐述了在设计、生产与用户体验层面亟待优化的核心痛点。讨论焦点集中在**产线生产防漏件改进、电器缺水预警功能升级、风扇防夹手安全设计**等具体需求上。
 
-工作室依托学校双创学院支持，提供丰富的项目实践、竞赛指导与科研资源，助力每一位成员在科技创新中实现自我突破。
-
-📩 欢迎感兴趣的同学咨询联系：
-周老师 
 <div class="text-center">
     <img class="img-fluid img-thumbnail" style="max-height: 480px;"
-        src="{{ '/assets/postimg/2025-12-17-cogtwins-lab-is-recruiting-new-members(3).jpg' | relative_url }}" />
+        src="{{ '/assets/postimg/2026_1_6_cogtwins_fablab_visit_haier(2).jpg' | relative_url }}" />
 </div>
 
-让我们一起，探索技术前沿，创造未来可能！Cogtwins创新创业工作室，期待与你同行！
+## 碰撞创新火花，提出初步方案
 
-注：本工作室属学校创新创业学院管理，常年开放招募，支持学生持续参与各类创新项目与赛事。
+针对海尔方提出的挑战，Cogtwins实验室团队基于自身在智能传感、算法设计及结构创新等方面的技术积累，现场提出了初步的解决方案构想，包括：
+- **防漏件优化与追溯编码方案**
+- **基于新型传感与智能算法的缺水预警系统**
+- **触摸式风扇防夹手安全设计**
 
+双方就上述方案的技术可行性、实施路径及潜在的合作模式进行了热烈而深入的探讨，为后续具体合作奠定了良好基础。
+
+## 走进研发一线，感受创新实力
+
+会后，在海尔实验室郭主任的引导下，实验室师生先后参观了**离线语音实验室、噪音测试实验室、风量能效测试实验室**等多个先进的研发测试平台。随后，大家访问了海尔小家电市场部展厅，深入了解了海尔最新产品线与前沿市场布局，亲身感受到了海尔强大的研发实力与深厚的创新文化。
+
+## 达成合作共识，规划后续行动
+
+本次交流成果显著，双方一致同意：
+1. 围绕会议确定的技术方向，深入开展可行性分析与方案细化。
+2. 海尔方将提供相关技术参数与测试样机支持。
+3. 双方约定由Cogtwins实验室团队在两个月内提交细化方案文档，并由雷远通经理协调组织下一次对接会议。
+
+此次走访不仅是一次宝贵的学习与交流机会，更是Cogtwins实验室推动产学研深度融合、对接行业真实需求的重要一步。我们期待与海尔集团在具体项目上开展实质性合作，共同为解决产业实际问题、培养创新实践人才贡献力量。
+
+**Cogtwins创新创业工作室持续开放纳新，欢迎对工业软件、人工智能、机器人、智能硬件等方向感兴趣，并渴望参与真实产业项目实践的同学加入我们，一起探索前沿，创造价值！**
