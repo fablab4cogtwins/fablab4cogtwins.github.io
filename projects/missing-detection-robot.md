@@ -98,6 +98,10 @@ title: "缺失检测机器人"
               <i class="bi bi-building me-2"></i>
               所属工作室: congtwins fablab
             </li>
+            <li class="mb-2">
+              <i class="bi bi-tags me-2"></i>
+              项目类型: 机器人系统与智能检测
+            </li>
             <li>
               <i class="bi bi-award me-2"></i>
               项目状态: 研发阶段
