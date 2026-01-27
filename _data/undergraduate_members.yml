@@ -18,7 +18,47 @@
   photo: "/assets/imgs/xiong_siyi.jpg"
   title: "Undergraduate"
 
-- name: "Song Jiayi"
+- name: "Zhao Na"
+  profile: null
+  photo: "/assets/imgs/zhao_na.jpg"
+  title: "Undergraduate"
+  
+- name: "Tang Quanliang"
+  profile: null
+  photo: "/assets/imgs/tang_quanliang.jpg"
+  title: "Undergraduate"
+  
+- name: "Zhang Junjie"
   profile: null
   photo: "/assets/imgs/song_jiayi.jpg"
+  title: "Undergraduate"
+  
+- name: "Zhang Zhenyang"
+  profile: null
+  photo: "/assets/imgs/zhang_zhenyang.jpg"
+  title: "Undergraduate"
+  
+- name: "Yao Linyi"
+  profile: null
+  photo: "/assets/imgs/yao_linyi.jpg"
+  title: "Undergraduate"
+
+- name: "Zhang Tongran"
+  profile: null
+  photo: "/assets/imgs/zhang_tongran.jpg"
+  title: "Undergraduate"
+  
+ - name: "Peng Tao"
+  profile: null
+  photo: "/assets/imgs/peng_tao.jpg"
+  title: "Undergraduate"
+
+ - name: "Wang Zhenli"
+  profile: null
+  photo: "/assets/imgs/wang_zhenli.jpg"
+  title: "Undergraduate"
+
+ - name: "Qin Xiao"
+  profile: null
+  photo: "/assets/imgs/qin_xiao.jpg"
   title: "Undergraduate"
