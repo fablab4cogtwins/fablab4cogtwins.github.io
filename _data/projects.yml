@@ -12,3 +12,8 @@
   image: "/assets/images/projects/missing-detection-robot.jpg"
   description: "基于传感器与视觉识别的自动化缺失检测系统"
   link: "/projects/missing-detection-robot"
+  
+- name: "电风扇防夹手安全控制系统"
+  image: "/assets/images/projects/fan-safety-control-system.jpg"
+  description: "基于STM32与柔性压力传感的智能安全防护系统"
+  link: "/projects/fan-safety-control-system"
