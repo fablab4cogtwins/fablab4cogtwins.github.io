@@ -7,9 +7,6 @@ title: "缺失检测机器人"
   <div class="row">
     <div class="col-lg-8">
       <h1 class="mb-4">缺失检测机器人</h1>
-      <div class="mb-4">
-        <img src="/assets/images/projects/missing-detection-robot.jpg" class="img-fluid rounded" alt="缺失检测机器人">
-      </div>
       
       <div class="card mb-4">
         <div class="card-body">
