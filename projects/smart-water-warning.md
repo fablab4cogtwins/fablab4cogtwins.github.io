@@ -105,7 +105,7 @@ title: "外置式智能缺水警告装置"
             </li>
             <li class="mb-2">
               <i class="bi bi-building me-2"></i>
-              所属实验室: 智能检测与控制实验室
+              所属实验室: congtwins fablab
             </li>
             <li class="mb-2">
               <i class="bi bi-tags me-2"></i>
