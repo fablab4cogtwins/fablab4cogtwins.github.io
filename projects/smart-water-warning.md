@@ -7,9 +7,6 @@ title: "外置式智能缺水警告装置"
   <div class="row">
     <div class="col-lg-8">
       <h1 class="mb-4">外置式智能缺水警告装置</h1>
-      <div class="mb-4">
-        <img src="/assets/images/projects/smart-water-warning.jpg" class="img-fluid rounded" alt="外置式智能缺水警告装置">
-      </div>
       
       <div class="card mb-4">
         <div class="card-body">
