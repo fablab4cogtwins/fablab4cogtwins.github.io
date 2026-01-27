@@ -101,7 +101,7 @@ title: "外置式智能缺水警告装置"
           <ul class="list-unstyled">
             <li class="mb-2">
               <i class="bi bi-calendar me-2"></i>
-              立项时间: 2023年9月
+              立项时间: 2026年1月
             </li>
             <li class="mb-2">
               <i class="bi bi-building me-2"></i>
