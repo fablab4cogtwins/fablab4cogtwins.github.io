@@ -23,14 +23,12 @@ title: "缺失检测机器人"
         <div class="col-md-6 mb-4">
           <div class="card h-100">
             <div class="card-body">
-              <h5 class="card-title">系统构成</h5>
+              <h5 class="card-title">核心功能</h5>
               <ul class="list-group list-group-flush">
-                <li class="list-group-item">称重传感器模块：检测箱体总重量</li>
-                <li class="list-group-item">视觉相机模块：图像识别零部件</li>
-                <li class="list-group-item">嵌入式主控单元：STM32+ESP32</li>
-                <li class="list-group-item">上位机软件：数据分析与可视化</li>
-                <li class="list-group-item">云端服务：阿里云IoT远程存储</li>
-                <li class="list-group-item">用户交互界面：实时监控与报警</li>
+                <li class="list-group-item">重量检测与图像识别双重验证</li>
+                <li class="list-group-item">实时数据采集与处理</li>
+                <li class="list-group-item">本地与云端双模式运行</li>
+                <li class="list-group-item">产品质量自动检测</li>
               </ul>
             </div>
           </div>
