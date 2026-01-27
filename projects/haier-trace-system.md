@@ -78,19 +78,20 @@ title: "海尔产品售后溯源系统"
       </div>
       
       <div class="card">
-    <div class="card-body">
-      <h5 class="card-title">项目信息</h5>
-      <ul class="list-unstyled">
-        <li class="mb-2">
-          <i class="bi bi-calendar me-2"></i>
-          立项时间: 2026年1月
-        </li>
-        <li class="mb-2">
-          <i class="bi bi-building me-2"></i>
-          所属工作室: congtwins fablab
-        <li>
-          <i class="bi bi-award me-2"></i>
-          项目状态: 研发阶段
+        <div class="card-body">
+          <h5 class="card-title">项目信息</h5>
+          <ul class="list-unstyled">
+            <li class="mb-2">
+              <i class="bi bi-calendar me-2"></i>
+              立项时间: 2026年1月
+            </li>
+            <li class="mb-2">
+              <i class="bi bi-building me-2"></i>
+              所属工作室: congtwins fablab
+            </li>
+            <li>
+              <i class="bi bi-award me-2"></i>
+              项目状态: 研发阶段
             </li>
           </ul>
         </div>
