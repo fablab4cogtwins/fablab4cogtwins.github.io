@@ -106,11 +106,6 @@ title: "外置式智能缺水警告装置"
             <li class="mb-2">
               <i class="bi bi-building me-2"></i>
               所属工作室: congtwins fablab
-            </li>
-            <li class="mb-2">
-              <i class="bi bi-tags me-2"></i>
-              项目类型: 硬件设计与嵌入式开发
-            </li>
             <li>
               <i class="bi bi-award me-2"></i>
               项目状态: 研发阶段
