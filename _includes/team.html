@@ -32,8 +32,20 @@
         <img src="{{ project.image | relative_url }}" class="card-img-top rounded mx-auto mt-3"
              style="width: 140px; height: 140px; object-fit: cover" alt="{{ project.name }}" loading="lazy" />
         <div class="card-body">
-          <h5 class="card-title mb-0 hover-primary">{{ project.name }}</h5>
+          <h5 class="card-title mb-1 hover-primary">{{ project.name }}</h5>
           <div class="card-text text-muted small">{{ project.description }}</div>
+          
+          <!-- 添加技术标签（可选） -->
+          {% if project.technologies and project.technologies.size > 0 %}
+          <div class="mt-2">
+            {% for tech in project.technologies limit:2 %}
+            <span class="badge bg-light text-dark border small me-1">{{ tech }}</span>
+            {% endfor %}
+            {% if project.technologies.size > 2 %}
+            <span class="badge bg-light text-dark border small">+{{ project.technologies.size | minus: 2 }}</span>
+            {% endif %}
+          </div>
+          {% endif %}
         </div>
       </div>
     </a>
