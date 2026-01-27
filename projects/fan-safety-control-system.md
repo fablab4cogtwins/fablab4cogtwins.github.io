@@ -8,7 +8,6 @@ title: "电风扇防夹手安全控制系统"
     <div class="col-lg-8">
       <h1 class="mb-4">电风扇防夹手安全控制系统</h1>
       <div class="mb-4">
-        <img src="/assets/images/projects/fan-safety-control-system.jpg" class="img-fluid rounded" alt="电风扇防夹手安全控制系统">
       </div>
       
       <div class="card mb-4">
