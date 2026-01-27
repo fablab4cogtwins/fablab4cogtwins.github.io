@@ -113,7 +113,7 @@ title: "外置式智能缺水警告装置"
             </li>
             <li>
               <i class="bi bi-award me-2"></i>
-              项目状态: 研发完成
+              项目状态: 研发阶段
             </li>
           </ul>
         </div>
