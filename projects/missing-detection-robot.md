@@ -63,10 +63,6 @@ title: "缺失检测机器人"
           <h5 class="card-title">项目团队</h5>
           <div class="list-group list-group-flush">
             <div class="list-group-item">
-              <h6 class="mb-0">周杰韩 教授</h6>
-              <small class="text-muted">项目负责人</small>
-            </div>
-            <div class="list-group-item">
               <h6 class="mb-0">张路宇</h6>
               <small class="text-muted">团队管理与技术规划</small>
             </div>
