@@ -78,24 +78,19 @@ title: "海尔产品售后溯源系统"
       </div>
       
       <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">项目信息</h5>
-          <ul class="list-unstyled">
-            <li class="mb-2">
-              <i class="bi bi-calendar me-2"></i>
-              立项时间: 2026年1月
-            </li>
-            <li class="mb-2">
-              <i class="bi bi-building me-2"></i>
-              合作企业: 海尔集团
-            </li>
-            <li class="mb-2">
-              <i class="bi bi-tags me-2"></i>
-              项目类型: 企业级系统开发
-            </li>
-            <li>
-              <i class="bi bi-award me-2"></i>
-              项目状态: 方案设计阶段
+    <div class="card-body">
+      <h5 class="card-title">项目信息</h5>
+      <ul class="list-unstyled">
+        <li class="mb-2">
+          <i class="bi bi-calendar me-2"></i>
+          立项时间: 2026年1月
+        </li>
+        <li class="mb-2">
+          <i class="bi bi-building me-2"></i>
+          所属工作室: congtwins fablab
+        <li>
+          <i class="bi bi-award me-2"></i>
+          项目状态: 研发阶段
             </li>
           </ul>
         </div>
