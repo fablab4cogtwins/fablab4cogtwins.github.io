@@ -7,9 +7,6 @@ title: "海尔产品售后溯源系统"
   <div class="row">
     <div class="col-lg-8">
       <h1 class="mb-4">海尔产品售后溯源系统</h1>
-      <div class="mb-4">
-        <img src="/assets/images/projects/haier-trace-system.jpg" class="img-fluid rounded" alt="海尔产品售后溯源系统">
-      </div>
       
       <div class="card mb-4">
         <div class="card-body">
