@@ -23,12 +23,12 @@ title: Cognitive Industrial Digital Twins Fablab
 email: jiehan.zhou@sdust.edu.cn
 description: >- # this means to ignore newlines until "baseurl:"
   Official web of Cognitive Industrial Digital Twins (CogTwins) Fablab team of Shandong University of Science and Technology
-baseurl: "/fablab4cogtwins.github.io" # the subpath of your site, e.g. /blog
-url: "https://cogtwinsfablab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://fablab4cogtwins.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: fablab4cogtwins
 paginate: 9  # Number of posts per page
-paginate_path: "/fablab4cogtwins.github.io/page:num/"
+paginate_path:"/page:num/" 
 
 
 # Build settings
