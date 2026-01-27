@@ -7,3 +7,8 @@
   image: "/assets/images/projects/haier-trace-system.jpg"
   description: "面向海尔集团的产品全生命周期追溯与质量管理平台"
   link: "/projects/haier-trace-system"
+  
+- name: "缺失检测机器人"
+  image: "/assets/images/projects/missing-detection-robot.jpg"
+  description: "基于传感器与视觉识别的自动化缺失检测系统"
+  link: "/projects/missing-detection-robot"
