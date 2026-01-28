@@ -1,3 +1,13 @@
+- name: "Kong Jie"
+  profile: null
+  photo: "/assets/imgs/kong_jie.jpg"
+  title: "Undergraduate"
+
+- name: "Wang Zelin"
+  profile: null
+  photo: "/assets/imgs/wang_zelin.jpg"
+  title: "Undergraduate"
+  
 - name: "Zhang Luyu"
   profile: null
   photo: "/assets/imgs/zhang_luyu.jpg"
