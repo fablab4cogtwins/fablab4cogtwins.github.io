@@ -3,30 +3,10 @@
   photo: "/assets/imgs/jiehan.jpg"
   title: "Team Leader | Professor"
 
-- name: "Luo Hanjiang"
-  profile: "/luo_hanjiang"
-  photo: "/assets/imgs/luo_hanjiang.png"
-  title: "Professor"
-
-- name: "Liu Bing"
-  profile: "/liu_bing"
-  photo: "/assets/imgs/liu_bing.jpg"
-  title: "Professor"
-
 - name: "Cui Huanqing"
   profile: "/cui_huanqing"
   photo: "/assets/imgs/cui_huanqing.jpg"
   title: "Professor"
-
-- name: "Sun Haibin"
-  profile: "/sun_haibin"
-  photo: "/assets/imgs/sun_haibin.jpg"
-  title: "Associate Professor"
-
-- name: "Li Zhe"
-  profile: "/li_zhe"
-  photo: "/assets/imgs/li_zhe.jpg"
-  title: "Associate Professor"
 
 - name: "Wang Jinrui"
   profile: "/wang_jinrui"
@@ -38,8 +18,4 @@
   photo: "/assets/imgs/bao_han.png"
   title: "Lecturer"
 
-- name: "Li Yang"
-  profile: "/li_yang"
-  photo: "/assets/imgs/li_yang.jpg"
-  title: "Lecturer"
 
