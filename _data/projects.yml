@@ -5,7 +5,7 @@
   
 - name: "海尔产品售后溯源系统"
   image: "/assets/images/projects/haier-trace-system.jpg"
-  description: "面向海尔集团的产品全生命周期追溯与质量管理平台"
+  description: "产品全生命周期追溯与质量管理平台"
   link: "/projects/haier-trace-system"
   
 - name: "缺失检测机器人"
@@ -17,3 +17,13 @@
   image: "/assets/images/projects/fan-safety-control-system.jpg"
   description: "基于STM32与柔性压力传感的智能安全防护系统"
   link: "/projects/fan-safety-control-system"
+
+- name: "焊接机器人"
+  image: "/assets/images/projects/welding-robot.jpg"
+  description: "基于视觉与激光技术的高精度校准与实时投射系统"
+  link: "/projects/welding-robot"
+  
+- name: "自主无人机系统"
+  image: "/assets/images/projects/autonomous-drone.jpg"
+  description: "具备高自主性的四旋翼无人机平台，用于自动化巡检与短途配送"
+  link: "/projects/autonomous-drone"
