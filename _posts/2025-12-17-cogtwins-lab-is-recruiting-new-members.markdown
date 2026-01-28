@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cogtwins创新创业工作室常年纳新，期待你的加入！"
+title: "Cogtwins Fablab常年纳新，期待你的加入！"
 author: "Jiehan Zhou"
 date: 2025-12-17
 tags: Lab Recruiting Newmembers
