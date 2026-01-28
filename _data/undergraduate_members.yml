@@ -2,7 +2,12 @@
   profile: null
   photo: "/assets/imgs/kong_jie.jpg"
   title: "Undergraduate"
-
+  
+- name: "Zhang Junxiang"
+  profile: null
+  photo: "/assets/imgs/zhang_junxiang.jpg"
+  title: "Undergraduate"
+  
 - name: "Wang Zelin"
   profile: null
   photo: "/assets/imgs/wang_zelin.jpg"
