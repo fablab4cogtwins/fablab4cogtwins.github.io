@@ -3,17 +3,17 @@
   photo: "/assets/imgs/jiehan.jpg"
   title: "Team Leader | Professor"
 
-- name: "Cui Huanqing"
+- name: "Huanqing Cui"
   profile: "/cui_huanqing"
   photo: "/assets/imgs/cui_huanqing.jpg"
   title: "Professor"
 
-- name: "Wang Jinrui"
+- name: "Jinrui Wang"
   profile: "/wang_jinrui"
   photo: "/assets/imgs/wang_jinrui.jpg"
   title: "Associate Professor"
 
-- name: "Bao Han"
+- name: "Han Bao"
   profile: "/bao_han"
   photo: "/assets/imgs/bao_han.png"
   title: "Lecturer"
