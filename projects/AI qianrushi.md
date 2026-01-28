@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "智能家电芯片与集成系统"
+title: "AI 嵌入式"
 ---
 
 <div class="container py-5">
