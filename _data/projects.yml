@@ -26,7 +26,7 @@
 - name: "自主无人机系统"
   image: "/assets/images/projects/autonomous-drone.jpg"
   description: "具备高自主性的四旋翼无人机平台，用于自动化巡检与短途配送"
-  link: "/projects/autonomous-drone"
+  link: "/projects/autonomous-drone-system"
 
 - name: "AI 嵌入式"
   image: "/assets/images/projects/smart-home-chip-system.jpg"
