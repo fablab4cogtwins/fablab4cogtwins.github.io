@@ -4,22 +4,17 @@ title: Team Publication
 permalink: /team_publication/
 ---
 <div class="container mt-3">
-    <!-- 添加Google Scholar链接 -->
-    <div class="text-center mb-4">
-        <div class="fs-4 fw-semibold border-bottom pb-2">
-            <i class="bi bi-journal-album"></i>
-            Team Publication
-        </div>
-        <div class="mt-3 mb-3">
-            <a href="https://scholar.google.com/citations?user=Elzkz90AAAAJ&hl=zh-CN" 
-               target="_blank" 
-               class="btn btn-outline-primary btn-lg">
-                <i class="bi bi-google"></i> 点击访问 Fablab 谷歌学术
-            </a>
-        </div>
-        <p class="text-muted">以下为部分代表性成果，完整列表请访问上方链接</p>
+    <div class="fs-4 fw-semibold border-bottom">
+        <i class="bi bi-journal-album"></i>
+        Team Publication
+        <a href="https://scholar.google.com/citations?user=Elzkz90AAAAJ&hl=zh-CN" 
+           target="_blank" 
+           title="Fablab 谷歌学术"
+           class="text-decoration-none ms-2">
+            <i class="bi bi-box-arrow-up-right"></i>
+        </a>
     </div>
-
+    
     <ol class="list-group-numbered mt-3">
         <li class="list-group-item mb-1">
             Mu Gu, Fangfang Gao, Lin Lin, Chunhui Su, Zhe Han, Hua Zhang, Yandong Li, Quanbo Lu, <b>Jiehan Zhou</b>, IR4AAS:
