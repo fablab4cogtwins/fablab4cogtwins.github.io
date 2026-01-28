@@ -1,13 +1,13 @@
 ---
 layout: default
-title: "海尔产品售后溯源系统"
+title: "产品售后溯源系统"
 ---
 
 <div class="container py-5">
   <div class="row justify-content-center">
     <div class="col-lg-10">
       <div class="text-center mb-5">
-        <h1 class="fw-bold text-primary mb-3">海尔产品售后溯源系统</h1>
+        <h1 class="fw-bold text-primary mb-3">产品售后溯源系统</h1>
         <div class="d-flex justify-content-center">
           <span class="badge bg-gradient-primary rounded-pill px-3 py-2 me-2">质量追溯</span>
           <span class="badge bg-gradient-success rounded-pill px-3 py-2">企业级系统</span>
@@ -24,7 +24,7 @@ title: "海尔产品售后溯源系统"
             </div>
             <div class="card-body p-5">
               <p class="fs-5 text-dark mb-4">
-                本项目为海尔集团开发的产品全生命周期追溯与质量管理平台，旨在解决现有系统在售后追溯方面的不足。
+                本项目为相关企业开发的产品全生命周期追溯与质量管理平台，旨在解决现有系统在售后追溯方面的不足。
               </p>
               <p class="fs-5 text-dark mb-0">
                 系统包含产品信息查询和售后追溯两大核心模块，支持从生产到售后的全链条追溯，实现产品生产工厂、生产线、批次等信息的快速查询与定位。
