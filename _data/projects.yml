@@ -3,7 +3,7 @@
   description: "基于电容式非接触水位检测技术的外置式预警装置"
   link: "/projects/smart-water-warning"
   
-- name: "海尔产品售后溯源系统"
+- name: "产品售后溯源系统"
   image: "/assets/images/projects/haier-trace-system.jpg"
   description: "产品全生命周期追溯与质量管理平台"
   link: "/projects/haier-trace-system"
