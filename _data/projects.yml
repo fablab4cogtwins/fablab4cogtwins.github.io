@@ -27,3 +27,8 @@
   image: "/assets/images/projects/autonomous-drone.jpg"
   description: "具备高自主性的四旋翼无人机平台，用于自动化巡检与短途配送"
   link: "/projects/autonomous-drone"
+
+- name: "AI 嵌入式"
+  image: "/assets/images/projects/smart-home-chip-system.jpg"
+  description: "面向情感交互与心理健康管理的智能家电芯片与集成系统"
+  link: "/projects/smart-home-chip-system"
