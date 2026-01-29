@@ -1,3 +1,8 @@
+- name: "LoveSports APP"
+  image: "/assets/images/projects/lovesports-app.jpg"
+  description: "基于人脸识别技术的运动打卡与健康管理应用"
+  link: "/projects/lovesports-app"
+
 - name: "外置式智能缺水警告装置"
   image: "/assets/images/projects/smart-water-warning.jpg"
   description: "基于电容式非接触水位检测技术的外置式预警装置"
