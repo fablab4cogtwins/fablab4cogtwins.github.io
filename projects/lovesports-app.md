@@ -44,7 +44,7 @@ title: "LoveSports APP"
                 </div>
                 <div>
                   <div class="text-muted small">立项时间</div>
-                  <div class="fw-bold fs-5">2026年1月</div>
+                  <div class="fw-bold fs-5">2025年11月</div>
                 </div>
               </div>
               
