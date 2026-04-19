@@ -10,7 +10,7 @@ published: true
 
 <div class="text-center">
     <img class="img-fluid img-thumbnail" style="max-height: 480px;"
-        src="{{ '/assets/postimg/2026-03-14-presentation-mastery-talk-1.jpg' | relative_url }}" />
+        src="{{ '/assets/postimg/active.jpg' | relative_url }}" />
 </div>
 
 **On the evening of March 14, 2026**, the International Cooperation Office (J13-114) of the School of Computer Science hosted an engaging academic and cultural event focused on presentation confidence and communication skills. The event consisted of two sessions: a **"Presentation Mastery" talk** (19:00–20:00) and an **Origami Cultural Exchange activity** (20:00–21:30), attracting active participation from faculty and students.
