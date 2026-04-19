@@ -33,6 +33,6 @@ Following the talk, the **Origami Cultural Exchange** provided a relaxed and han
 
 This event not only provided internationally recognized guidance on presentation skills but also helped ease academic anxiety through interdisciplinary and cross-cultural interaction, boosting participants' confidence and communication abilities. The School of Computer Science will continue to organize such high-level cultural exchange events to empower faculty and students to express themselves with greater confidence on the global academic stage.
 
-**Reported by the International Cooperation Office, School of Computer Science**
+**Reported by fablab4cogtwins**
 
 *For more information about future events, please stay tuned to our official announcements.*
