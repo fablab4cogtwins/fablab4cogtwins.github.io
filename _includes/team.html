@@ -91,24 +91,24 @@
     {% endfor %}
   </div>
 
-<!-- Students (Undergraduate Members) 超紧凑版：卡片更小、行距更大 -->
 {% if site.data.undergraduate_members and site.data.undergraduate_members | size > 0 %}
 <h4 class="mt-5 mb-4">Students</h4>
 <div class="row gy-5">
   {% for member in site.data.undergraduate_members %}
   <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center hprofile">
     <a href="{{ member.profile | relative_url }}" class="text-decoration-none">
-      <div class="card shadow border-0 h-100 animate__animated animate__fadeInUp d-flex flex-column">
-        <!-- 照片放大至 160px，使用 my-auto 实现垂直居中，移除 mt-2 -->
-        <img src="{{ member.photo | relative_url }}" class="card-img-top rounded-circle mx-auto my-auto"
+      <div class="card shadow border-0 h-100 animate__animated animate__fadeInUp">
+        <!-- 照片放大至160px，上边距增大（mt-5）使图片下移 -->
+        <img src="{{ member.photo | relative_url }}" class="card-img-top rounded-circle mx-auto mt-5"
              style="width: 160px; height: 160px; object-fit: cover" alt="{{ member.name }}" loading="lazy" />
-        <!-- 卡片主体：保持极窄内边距，紧贴照片下方 -->
+        <!-- 卡片主体：保持极窄内边距 -->
         <div class="card-body py-0 px-1">
           <h5 class="card-title mb-0 hover-primary" style="font-size: 0.95rem;">{{ member.name }}</h5>
           <div class="card-text text-muted small" style="font-size: 0.7rem;">{{ member.title }}</div>
         </div>
       </div>
     </a>
+
 
     <!-- 项目按钮 -->
     {% if member.projects and member.projects.size > 0 %}
