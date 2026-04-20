@@ -37,3 +37,8 @@
   image: "/assets/images/projects/smart-home-chip-system.jpg"
   description: "面向情感交互与心理健康管理的智能家电芯片与集成系统"
   link: "/projects/ai-qianrushi"
+
+- name: "自主式土壤剖面监测与预测农业系统"
+  image: "/assets/images/projects/soil-profile-monitor.jpg"
+  description: "基于工业级RS485 Modbus架构的分布式物联网框架，集成ESP32-C3-Pro与Node.js后端，实现高保真根区数据采集与物种特异性灌溉施肥决策支持。"
+  link: "/projects/soil-profile-monitor"
