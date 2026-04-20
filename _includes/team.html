@@ -75,11 +75,11 @@
 
 <!-- Students (Undergraduate Members) -->
 {% if site.data.undergraduate_members and site.data.undergraduate_members | size > 0 %}
-<h4 class="mt-5 mb-4">Students</h4>  <!-- 标题下边距加大 -->
-<div class="row gy-4">  <!-- 原 gy-3 改为 gy-4，增大垂直间距 -->
+<h4 class="mt-5 mb-3">Students</h4>
+<div class="row gy-3">
   {% for member in site.data.undergraduate_members %}
   <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center hprofile">
-    <!-- 卡片区域：可点击跳转个人详情页（若 profile 存在） -->
+    <!-- 卡片区域 -->
     {% if member.profile %}
     <a href="{{ member.profile | relative_url }}" class="text-decoration-none">
     {% else %}
@@ -95,21 +95,21 @@
       </div>
     </a>
 
-    <!-- 项目按钮（位于卡片下方，独立于卡片链接） -->
+    <!-- 项目按钮：增加上边距 -->
     {% if member.projects and member.projects.size > 0 %}
-    <div class="mt-3">  <!-- 原 mt-2 改为 mt-3，增加按钮与卡片的间距 -->
+    <div class="mt-4">  <!-- 原 mt-3 改为 mt-4 -->
       <button type="button" class="btn btn-sm btn-outline-info w-100" data-bs-toggle="modal" data-bs-target="#projectModalUndergrad{{ forloop.index }}">
         📋 参与项目 ({{ member.projects.size }})
       </button>
     </div>
     {% else %}
-    <div class="mt-3">
+    <div class="mt-4">  <!-- 原 mt-3 改为 mt-4 -->
       <button class="btn btn-sm btn-outline-secondary w-100" disabled>暂无项目</button>
     </div>
     {% endif %}
   </div>
 
-  <!-- 模态框：展示该成员的所有项目（仅当有 projects 时生成） -->
+  <!-- 模态框（保持不变） -->
   {% if member.projects and member.projects.size > 0 %}
   <div class="modal fade" id="projectModalUndergrad{{ forloop.index }}" tabindex="-1" aria-labelledby="modalUndergradLabel{{ forloop.index }}" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
