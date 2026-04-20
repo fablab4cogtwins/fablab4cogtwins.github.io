@@ -91,80 +91,76 @@
     {% endfor %}
   </div>
 
-  <!-- ========== Students (Undergraduate Members) 增强版 ========== -->
-  {% if site.data.undergraduate_members and site.data.undergraduate_members | size > 0 %}
-  <h4 class="mt-5 mb-3">Students</h4>
-  <div class="row gy-4">
-    {% for member in site.data.undergraduate_members %}
-    <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center hprofile">
-      <!-- 卡片区域 -->
-      {% if member.profile %}
-      <a href="{{ member.profile | relative_url }}" class="text-decoration-none">
-      {% else %}
-      <a class="disabled text-decoration-none">
-      {% endif %}
-        <div class="card shadow border-0 h-100 animate__animated animate__fadeInUp">
-          <!-- 照片缩小为110x110 -->
-          <img src="{{ member.photo | relative_url }}" class="card-img-top rounded-circle mx-auto mt-3"
-               style="width: 110px; height: 110px; object-fit: cover" alt="{{ member.name }}" loading="lazy" />
-          <div class="card-body py-2">
-            <h5 class="card-title mb-0 hover-primary">{{ member.name }}</h5>
-            <div class="card-text text-muted small">{{ member.title }}</div>
-          </div>
+<!-- Students (Undergraduate Members) 增强版：照片更大、卡片更紧凑 -->
+{% if site.data.undergraduate_members and site.data.undergraduate_members | size > 0 %}
+<h4 class="mt-5 mb-3">Students</h4>
+<div class="row gy-4">
+  {% for member in site.data.undergraduate_members %}
+  <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center hprofile">
+    <!-- 卡片区域：可点击跳转个人详情页 -->
+    <a href="{{ member.profile | relative_url }}" class="text-decoration-none">
+      <div class="card shadow border-0 h-100 animate__animated animate__fadeInUp">
+        <!-- 照片放大到 130px，上边距减小 -->
+        <img src="{{ member.photo | relative_url }}" class="card-img-top rounded-circle mx-auto mt-2"
+             style="width: 130px; height: 130px; object-fit: cover" alt="{{ member.name }}" loading="lazy" />
+        <!-- 卡片主体：极紧凑内边距，文字缩小 -->
+        <div class="card-body py-1 px-2">
+          <h5 class="card-title mb-0 hover-primary" style="font-size: 1rem;">{{ member.name }}</h5>
+          <div class="card-text text-muted small" style="font-size: 0.75rem;">{{ member.title }}</div>
         </div>
-      </a>
-
-      <!-- 项目按钮（紧凑贴近卡片） -->
-      {% if member.projects and member.projects.size > 0 %}
-      <div class="mt-2">
-        <button type="button" class="btn btn-sm btn-outline-info w-100" data-bs-toggle="modal" data-bs-target="#projectModalUndergrad{{ forloop.index }}">
-          📋 参与项目 ({{ member.projects.size }})
-        </button>
       </div>
-      {% else %}
-      <div class="mt-2">
-        <button class="btn btn-sm btn-outline-secondary w-100" disabled>暂无项目</button>
-      </div>
-      {% endif %}
-    </div>
+    </a>
 
-    <!-- 模态框：展示项目详情 -->
+    <!-- 项目按钮（紧凑贴近卡片） -->
     {% if member.projects and member.projects.size > 0 %}
-    <div class="modal fade" id="projectModalUndergrad{{ forloop.index }}" tabindex="-1" aria-labelledby="modalUndergradLabel{{ forloop.index }}" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-          <div class="modal-header bg-gradient-primary text-white">
-            <h5 class="modal-title" id="modalUndergradLabel{{ forloop.index }}">{{ member.name }} - 参与项目</h5>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <ul class="list-group list-group-flush">
-              {% for proj_item in member.projects %}
-                {% assign proj_name = proj_item.name %}
-                {% assign proj_role = proj_item.role %}
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  {{ proj_name }}
-                  {% if proj_role == "leader" %}
-                    <span class="badge bg-warning text-dark">⭐ 负责人</span>
-                  {% else %}
-                    <span class="badge bg-secondary text-white">成员</span>
-                  {% endif %}
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
-          </div>
-        </div>
-      </div>
+    <div class="mt-2">
+      <button type="button" class="btn btn-sm btn-outline-info w-100" data-bs-toggle="modal" data-bs-target="#projectModalUndergrad{{ forloop.index }}">
+        📋 参与项目 ({{ member.projects.size }})
+      </button>
+    </div>
+    {% else %}
+    <div class="mt-2">
+      <button class="btn btn-sm btn-outline-secondary w-100" disabled>暂无项目</button>
     </div>
     {% endif %}
+  </div>
 
-    {% endfor %}
+  <!-- 模态框：展示项目及负责人标记 -->
+  {% if member.projects and member.projects.size > 0 %}
+  <div class="modal fade" id="projectModalUndergrad{{ forloop.index }}" tabindex="-1" aria-labelledby="modalUndergradLabel{{ forloop.index }}" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-gradient-primary text-white">
+          <h5 class="modal-title" id="modalUndergradLabel{{ forloop.index }}">{{ member.name }} - 参与项目</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group list-group-flush">
+            {% for proj_item in member.projects %}
+              {% assign proj_name = proj_item.name %}
+              {% assign proj_role = proj_item.role %}
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                {{ proj_name }}
+                {% if proj_role == "leader" %}
+                  <span class="badge bg-warning text-dark">⭐ 负责人</span>
+                {% else %}
+                  <span class="badge bg-secondary text-white">成员</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
   </div>
   {% endif %}
+
+  {% endfor %}
 </div>
+{% endif %}
 
 <!-- Bootstrap JS + Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
