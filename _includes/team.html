@@ -99,9 +99,9 @@
   <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center hprofile">
     <a href="{{ member.profile | relative_url }}" class="text-decoration-none">
       <div class="card shadow border-0 h-100 animate__animated animate__fadeInUp">
-        <!-- 照片缩小至120px，上边距略减 -->
+        <!-- 照片140px，上边距略减 -->
         <img src="{{ member.photo | relative_url }}" class="card-img-top rounded-circle mx-auto mt-2"
-             style="width: 120px; height: 120px; object-fit: cover" alt="{{ member.name }}" loading="lazy" />
+             style="width: 140px; height: 140px; object-fit: cover" alt="{{ member.name }}" loading="lazy" />
         <!-- 卡片主体：极窄内边距 -->
         <div class="card-body py-0 px-1">
           <h5 class="card-title mb-0 hover-primary" style="font-size: 0.95rem;">{{ member.name }}</h5>
