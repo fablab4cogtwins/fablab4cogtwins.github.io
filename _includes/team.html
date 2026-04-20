@@ -76,7 +76,7 @@
 <!-- Students (Undergraduate Members) -->
 {% if site.data.undergraduate_members and site.data.undergraduate_members | size > 0 %}
 <h4 class="mt-5 mb-3">Students</h4>
-<div class="row gy-3">
+<div class="row gy-4">  <!-- 原 gy-3 改为 gy-4，增大不同人之间的垂直距离 -->
   {% for member in site.data.undergraduate_members %}
   <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center hprofile">
     <!-- 卡片区域 -->
@@ -95,21 +95,21 @@
       </div>
     </a>
 
-    <!-- 项目按钮：增加上边距 -->
+    <!-- 项目按钮：距离卡片近一些（mt-2） -->
     {% if member.projects and member.projects.size > 0 %}
-    <div class="mt-4">  <!-- 原 mt-3 改为 mt-4 -->
+    <div class="mt-2">  <!-- 原 mt-3 改为 mt-2，按钮紧贴卡片 -->
       <button type="button" class="btn btn-sm btn-outline-info w-100" data-bs-toggle="modal" data-bs-target="#projectModalUndergrad{{ forloop.index }}">
         📋 参与项目 ({{ member.projects.size }})
       </button>
     </div>
     {% else %}
-    <div class="mt-4">  <!-- 原 mt-3 改为 mt-4 -->
+    <div class="mt-2">
       <button class="btn btn-sm btn-outline-secondary w-100" disabled>暂无项目</button>
     </div>
     {% endif %}
   </div>
 
-  <!-- 模态框（保持不变） -->
+  <!-- 模态框（不变） -->
   {% if member.projects and member.projects.size > 0 %}
   <div class="modal fade" id="projectModalUndergrad{{ forloop.index }}" tabindex="-1" aria-labelledby="modalUndergradLabel{{ forloop.index }}" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
