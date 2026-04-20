@@ -17,7 +17,12 @@
   profile: null
   photo: "/assets/imgs/yang_chen.jpg"
   title: ""
-    
+
+- name: "Hai Su"
+  profile: null
+  photo: "/assets/imgs/su hai.jpg"
+  title: ""
+  
 - name: "Zelin Wang"
   profile: null
   photo: "/assets/imgs/wang_zelin.jpg"
