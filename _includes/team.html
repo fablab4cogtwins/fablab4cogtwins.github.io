@@ -1,3 +1,4 @@
+<!-- Lab Members -->
 <div class="row gy-4">
   {% if site.data.lab_members and site.data.lab_members | size > 0 %}
     {% for member in site.data.lab_members %}
@@ -15,43 +16,31 @@
     </div>
     {% endfor %}
   {% endif %}
+</div>
 
+<!-- Affiliated Members -->
 <h4 class="mt-5 mb-3">Affiliated Members</h4>
 <div class="row gy-3">
-	{% for member in site.data.affiliated_members %}
-	<div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center hprofile">
+  {% for member in site.data.affiliated_members %}
+  <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center hprofile">
     {% if member.profile %}
-		<a
-			href="{{ member.profile | relative_url }}"
-			class="text-decoration-none"
-		>
+    <a href="{{ member.profile | relative_url }}" class="text-decoration-none">
     {% else %}
-		<a
-			class="disabled text-decoration-none"
-		>
+    <a class="disabled text-decoration-none">
     {% endif %}
-			<div
-				class="card shadow border-0 h-100 animate__animated animate__fadeInUp"
-			>
-				<img
-					src="{{ member.photo | relative_url }}"
-					class="card-img-top rounded-circle mx-auto mt-3"
-					style="width: 140px; height: 140px; object-fit: cover"
-					alt="{{ member.name }}"
-					loading="lazy"
-				/>
-				<div class="card-body">
-					<h5 class="card-title mb-0 hover-primary">{{ member.name }}</h5>
-					<div class="card-text text-muted small">{{ member.title }}</div>
-				</div>
-			</div>
-		</a>
-	</div>
-	{% endfor %}
-</div>
-
+      <div class="card shadow border-0 h-100 animate__animated animate__fadeInUp">
+        <img src="{{ member.photo | relative_url }}" class="card-img-top rounded-circle mx-auto mt-3"
+             style="width: 140px; height: 140px; object-fit: cover" alt="{{ member.name }}" loading="lazy" />
+        <div class="card-body">
+          <h5 class="card-title mb-0 hover-primary">{{ member.name }}</h5>
+          <div class="card-text text-muted small">{{ member.title }}</div>
+        </div>
+      </div>
+    </a>
+  </div>
   {% endfor %}
 </div>
+
 <!-- Our Projects Section -->
 {% if site.data.projects and site.data.projects | size > 0 %}
 <h4 class="mt-5 mb-4">Ongoing Projects</h4>
@@ -84,11 +73,13 @@
 </div>
 {% endif %}
 
+<!-- Students (Undergraduate Members) -->
 {% if site.data.undergraduate_members and site.data.undergraduate_members | size > 0 %}
 <h4 class="mt-5 mb-3">Students</h4>
 <div class="row gy-3">
   {% for member in site.data.undergraduate_members %}
   <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center hprofile">
+    <!-- 卡片区域：可点击跳转个人详情页（若 profile 存在） -->
     {% if member.profile %}
     <a href="{{ member.profile | relative_url }}" class="text-decoration-none">
     {% else %}
@@ -103,7 +94,54 @@
         </div>
       </div>
     </a>
+
+    <!-- 项目按钮（位于卡片下方，独立于卡片链接） -->
+    {% if member.projects and member.projects.size > 0 %}
+    <div class="mt-2">
+      <button type="button" class="btn btn-sm btn-outline-info w-100" data-bs-toggle="modal" data-bs-target="#projectModalUndergrad{{ forloop.index }}">
+        📋 参与项目 ({{ member.projects.size }})
+      </button>
+    </div>
+    {% else %}
+    <div class="mt-2">
+      <button class="btn btn-sm btn-outline-secondary w-100" disabled>暂无项目</button>
+    </div>
+    {% endif %}
   </div>
+
+  <!-- 模态框：展示该成员的所有项目（仅当有 projects 时生成） -->
+  {% if member.projects and member.projects.size > 0 %}
+  <div class="modal fade" id="projectModalUndergrad{{ forloop.index }}" tabindex="-1" aria-labelledby="modalUndergradLabel{{ forloop.index }}" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-gradient-primary text-white">
+          <h5 class="modal-title" id="modalUndergradLabel{{ forloop.index }}">{{ member.name }} - 参与项目</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-group list-group-flush">
+            {% for proj_item in member.projects %}
+              {% assign proj_name = proj_item.name %}
+              {% assign proj_role = proj_item.role %}
+              <li class="list-group-item d-flex justify-content-between align-items-center">
+                {{ proj_name }}
+                {% if proj_role == "leader" %}
+                  <span class="badge bg-warning text-dark">⭐ 负责人</span>
+                {% else %}
+                  <span class="badge bg-secondary text-white">成员</span>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endif %}
+
   {% endfor %}
 </div>
 {% endif %}
