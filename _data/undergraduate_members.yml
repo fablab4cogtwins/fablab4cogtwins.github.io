@@ -2,32 +2,50 @@
   profile: null
   photo: "/assets/imgs/wang_zixiao.jpg"
   title: ""
-  
+  projects:
+    - name: "LoveSports APP"
+      role: "leader"
+
 - name: "Jie Kong"
   profile: null
   photo: "/assets/imgs/kong_jie.jpg"
   title: ""
-  
+  projects:
+    - name: "焊接机器人"
+      role: "member"
+
 - name: "Junxiang Zhang"
   profile: null
   photo: "/assets/imgs/zhang_junxiang.jpg"
   title: ""
-  
+  projects:
+    - name: "产品售后溯源系统"
+      role: "leader"
+
 - name: "Chen Yang"
   profile: null
   photo: "/assets/imgs/yang_chen.jpg"
   title: ""
+  projects:
+    - name: "自主式土壤剖面监测与预测农业系统"
+      role: "member"
 
 - name: "Hai Su"
   profile: null
   photo: "/assets/imgs/su hai.jpg"
   title: ""
-  
+  projects:
+    - name: "自主式土壤剖面监测与预测农业系统"
+      role: "member"
+
 - name: "Zelin Wang"
   profile: null
   photo: "/assets/imgs/wang_zelin.jpg"
   title: ""
-  
+  projects:
+    - name: "焊接机器人"
+      role: "member"
+
 - name: "Luyu Zhang"
   profile: null
   photo: "/assets/imgs/zhang_luyu.jpg"
@@ -37,11 +55,16 @@
       role: "leader"
     - name: "自主无人机系统"
       role: "leader"
+    - name: "缺失检测机器人"
+      role: "leader"
+    - name: "电风扇防夹手安全控制系统"
+      role: "leader"
 
 - name: "Nailu Zheng"
   profile: null
   photo: "/assets/imgs/zhen_nailu.jpg"
   title: ""
+  projects: []
 
 - name: "Rui Cao"
   profile: null
@@ -55,58 +78,96 @@
   profile: null
   photo: "/assets/imgs/xiong_siyi.jpg"
   title: ""
+  projects: []
 
 - name: "Na Zhao"
   profile: null
   photo: "/assets/imgs/zhao_na.jpg"
   title: ""
-  
+  projects:
+    - name: "缺失检测机器人"
+      role: "member"
+
 - name: "Quanliang Tang"
   profile: null
   photo: "/assets/imgs/tang_quanliang.jpg"
   title: ""
-  
+  projects:
+    - name: "电风扇防夹手安全控制系统"
+      role: "member"
+
 - name: "Junjie Zhang"
   profile: null
   photo: "/assets/imgs/zhang_junjie.jpg"
   title: ""
-  
+  projects:
+    - name: "外置式智能缺水警告装置"
+      role: "member"
+
 - name: "Zhenyang Zhang"
   profile: null
   photo: "/assets/imgs/zhang_zhenyang.jpg"
   title: ""
-  
+  projects:
+    - name: "缺失检测机器人"
+      role: "member"
+
 - name: "Linyi Yao"
   profile: null
   photo: "/assets/imgs/yao_linyi.jpg"
   title: ""
+  projects:
+    - name: "外置式智能缺水警告装置"
+      role: "leader"
+    - name: "产品售后溯源系统"
+      role: "member"
 
 - name: "Tongdan Zhang"
   profile: null
   photo: "/assets/imgs/zhang_tongran.jpg"
   title: ""
-  
+  projects:
+    - name: "焊接机器人"
+      role: "member"
+    - name: "自主无人机系统"
+      role: "member"
+
 - name: "Tao Peng"
   profile: null
   photo: "/assets/imgs/peng_tao.jpg"
   title: ""
+  projects:
+    - name: "外置式智能缺水警告装置"
+      role: "member"
 
 - name: "Zhenli Wang"
   profile: null
   photo: "/assets/imgs/wang_zhenli.jpg"
   title: ""
+  projects:
+    - name: "外置式智能缺水警告装置"
+      role: "member"
 
 - name: "Xiao Qin"
   profile: null
   photo: "/assets/imgs/qin_xiao.jpg"
   title: ""
+  projects:
+    - name: "产品售后溯源系统"
+      role: "member"
 
 - name: "Jiayi Song"
   profile: null
   photo: "/assets/imgs/Song Jiayi.jpg"
   title: ""
+  projects:
+    - name: "电风扇防夹手安全控制系统"
+      role: "member"
 
 - name: "Meijing Cha"
   profile: null
   photo: "/assets/imgs/Cha MeiJing.jpg"
   title: ""
+  projects:
+    - name: "缺失检测机器人"
+      role: "member"
