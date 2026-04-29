@@ -78,7 +78,9 @@
   profile: null
   photo: "/assets/imgs/xiong_siyi.jpg"
   title: ""
-  projects: []
+  projects: 
+   - name: "产品售后溯源系统"
+      role: "member"
 
 - name: "Na Zhao"
   profile: null
@@ -171,3 +173,9 @@
   projects:
     - name: "缺失检测机器人"
       role: "member"
+
+- name: "Mengjuan Han"
+  profile: null
+  photo: "/assets/imgs/hanmengjuan.jpg"
+  title: ""
+  projects:[]
