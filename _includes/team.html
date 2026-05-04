@@ -29,6 +29,17 @@
     .project-badge:hover { transform: scale(1.05); filter: brightness(0.95); }
     .badge-none { background-color: #6c757d; cursor: default; }
     .badge-none:hover { transform: none; filter: none; }
+    /* 动态按钮样式辅助 */
+    .btn-outline-custom {
+      border-width: 1px;
+      background-color: transparent;
+      transition: all 0.2s;
+    }
+    .btn-outline-custom:hover {
+      background-color: currentColor;
+      color: white !important;
+      border-color: currentColor;
+    }
   </style>
 </head>
 <body>
@@ -77,45 +88,49 @@
     {% endfor %}
   </div>
 
-   <!-- ========== Ongoing Projects ========== -->
+   <!-- ========== Ongoing Projects（每个项目独立颜色，不重复） ========== -->
   {% if site.data.projects and site.data.projects | size > 0 %}
   <h4 class="mt-5 mb-4">Ongoing Projects</h4>
   <div class="row gy-4">
-    {% assign project_colors = "primary,success,warning,info" | split: "," %}
-    {% for project in site.data.projects %}
-    {% assign color_index = forloop.index0 | modulo: project_colors.size %}
-    {% assign current_color = project_colors[color_index] %}
-    <div class="col-12 col-md-6">
-      <div class="card shadow border-0 h-100 animate__animated animate__fadeInUp">
-        <div class="card-body p-4">
-          <div class="d-flex align-items-start">
-            <div class="flex-shrink-0">
-              <div class="rounded-circle bg-{{ current_color }} d-flex align-items-center justify-content-center" style="width: 60px; height: 60px;">
-                <span class="text-white fs-4">{{ forloop.index }}</span>
+    {% assign projects = site.data.projects %}
+    {% assign total_projects = projects | size %}
+    {% for project in projects %}
+      {% assign index = forloop.index0 %}
+      {% assign hue = index | times: 360 | divided_by: total_projects %}  <!-- 色相 = 索引 * 360° / 总数，保证均匀分布且不重复 -->
+      {% assign bg_color = "hsl(" | append: hue | append: ", 70%, 55%)" %}
+      {% assign border_color = "hsl(" | append: hue | append: ", 80%, 45%)" %}
+      <div class="col-12 col-md-6">
+        <div class="card shadow border-0 h-100 animate__animated animate__fadeInUp">
+          <div class="card-body p-4">
+            <div class="d-flex align-items-start">
+              <div class="flex-shrink-0">
+                <div class="rounded-circle d-flex align-items-center justify-content-center" style="width: 60px; height: 60px; background-color: {{ bg_color }}; color: white; font-weight: bold;">
+                  <span class="fs-4">{{ forloop.index }}</span>
+                </div>
+              </div>
+              <div class="flex-grow-1 ms-4">
+                <h5 class="card-title mb-2">{{ project.name }}</h5>
+                <p class="card-text text-muted mb-0">{{ project.description }}</p>
               </div>
             </div>
-            <div class="flex-grow-1 ms-4">
-              <h5 class="card-title mb-2">{{ project.name }}</h5>
-              <p class="card-text text-muted mb-0">{{ project.description }}</p>
+            <div class="mt-3">
+              <a href="{{ project.link | relative_url }}" class="btn btn-sm btn-outline-custom" 
+                 style="border-color: {{ border_color }}; color: {{ border_color }};" 
+                 onmouseenter="this.style.backgroundColor='{{ bg_color }}'; this.style.color='white';" 
+                 onmouseleave="this.style.backgroundColor='transparent'; this.style.color='{{ border_color }}';">查看详情</a>
             </div>
-          </div>
-          <div class="mt-3">
-            <a href="{{ project.link | relative_url }}" class="btn btn-sm btn-outline-{{ current_color }}">查看详情</a>
           </div>
         </div>
       </div>
-    </div>
     {% endfor %}
   </div>
   {% endif %}
   
-  <!-- ========== Students (Undergraduate Members) ========== -->
+  <!-- ========== Students (Undergraduate Members) 项目徽章颜色与对应项目唯一颜色匹配 ========== -->
   {% if site.data.undergraduate_members and site.data.undergraduate_members | size > 0 %}
   <h4 class="mt-5 mb-4">Students</h4>
   <div class="row gy-5">
     {% for member in site.data.undergraduate_members %}
-    {% assign badge_colors = "primary,success,warning,info" | split: "," %}
-    
     <div class="col-6 col-md-4 col-lg-3 col-xl-2 text-center hprofile">
       <div class="card shadow border-0 h-100 animate__animated animate__fadeInUp">
         <img src="{{ member.photo | relative_url }}" class="card-img-top rounded-circle mx-auto mt-5"
@@ -124,27 +139,28 @@
           <h5 class="card-title mb-0 hover-primary" style="font-size: 0.95rem;">{{ member.name }}</h5>
           <div class="card-text text-muted small" style="font-size: 0.7rem;">{{ member.title }}</div>
           
-          <!-- 项目序号徽章区域（无#号） -->
+          <!-- 项目序号徽章区域（每个徽章颜色与项目唯一颜色一致） -->
           <div class="mt-3">
             {% if member.projects and member.projects.size > 0 %}
               <div class="d-flex flex-wrap justify-content-center gap-1">
                 {% for proj_item in member.projects %}
                   {% assign project_found = false %}
                   {% assign project_index = 0 %}
-                  {% assign project_color_class = "secondary" %}
-                  
+                  {% assign project_hue = 0 %}
                   {% for global_proj in site.data.projects %}
                     {% if global_proj.name == proj_item.name %}
                       {% assign project_found = true %}
                       {% assign project_index = forloop.index %}
-                      {% assign color_idx = forloop.index0 | modulo: badge_colors.size %}
-                      {% assign project_color_class = badge_colors[color_idx] %}
+                      {% assign global_index0 = forloop.index0 %}
+                      {% assign total_projects = site.data.projects | size %}
+                      {% assign project_hue = global_index0 | times: 360 | divided_by: total_projects %}
                       {% break %}
                     {% endif %}
                   {% endfor %}
-                  
+                  {% assign badge_bg_color = "hsl(" | append: project_hue | append: ", 70%, 55%)" %}
                   {% if project_found %}
-                    <span class="badge bg-{{ project_color_class }} project-badge rounded-pill" 
+                    <span class="badge project-badge rounded-pill" 
+                          style="background-color: {{ badge_bg_color }}; color: white;"
                           data-bs-toggle="modal" 
                           data-bs-target="#projectModalUndergrad{{ forloop.parentloop.index }}"
                           title="项目: {{ proj_item.name }} (点击查看职责)">
@@ -171,7 +187,7 @@
       </div>
     </div>
 
-    <!-- 模态框：展示每个项目及其角色，同时显示项目序号（去除#号） -->
+    <!-- 模态框：展示项目角色，项目序号徽章也使用对应颜色 -->
     {% if member.projects and member.projects.size > 0 %}
     <div class="modal fade" id="projectModalUndergrad{{ forloop.index }}" tabindex="-1" aria-labelledby="modalUndergradLabel{{ forloop.index }}" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
@@ -186,16 +202,21 @@
                 {% assign proj_name = proj_item.name %}
                 {% assign proj_role = proj_item.role %}
                 {% assign proj_global_index = 0 %}
+                {% assign proj_hue = 0 %}
                 {% for gp in site.data.projects %}
                   {% if gp.name == proj_name %}
                     {% assign proj_global_index = forloop.index %}
+                    {% assign global_idx0 = forloop.index0 %}
+                    {% assign total_projs = site.data.projects | size %}
+                    {% assign proj_hue = global_idx0 | times: 360 | divided_by: total_projs %}
                     {% break %}
                   {% endif %}
                 {% endfor %}
+                {% assign badge_color = "hsl(" | append: proj_hue | append: ", 70%, 55%)" %}
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                   <span>
                     {% if proj_global_index > 0 %}
-                      <span class="badge bg-secondary me-2">{{ proj_global_index }}</span>
+                      <span class="badge me-2" style="background-color: {{ badge_color }}; color: white;">{{ proj_global_index }}</span>
                     {% endif %}
                     {{ proj_name }}
                   </span>
