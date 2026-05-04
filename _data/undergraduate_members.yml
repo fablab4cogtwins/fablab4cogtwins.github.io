@@ -78,8 +78,8 @@
   profile: null
   photo: "/assets/imgs/xiong_siyi.jpg"
   title: ""
-  projects: 
-   - name: "产品售后溯源系统"
+  projects:
+    - name: "产品售后溯源系统"
       role: "member"
 
 - name: "Na Zhao"
@@ -178,5 +178,4 @@
   profile: null
   photo: "/assets/imgs/hanmengjuan.jpg"
   title: ""
-  projects:[]
-  
+  projects: []
